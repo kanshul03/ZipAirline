@@ -13,3 +13,14 @@ The assignment is to create and submit a working digital version of the aircraft
 ##### Write a RESTful API using Django Rest Framework to:
     * Allow for input of 10 airplanes with user defined id and passenger assumptions
     * Print total airplane fuel consumption per minute and maximum minutes able to fly
+
+
+## Run Program - 
+1. Download/clone the porject/repository.
+2. Open command prompt(cmd) in the project folder directory.
+3. run the following commands - 
+      ** __pip install -r requirements.txt__ **
+      ** __python manage.py makemigrations__ **
+      ** __python manage.py migrate__ **
+      ** __python manage.py runserver__ **
+4. Open - ** __http://127.0.0.1:8000/airplanes/__ ** in browser/insomnia/postman to get/post/put/delete data on the rest api.
