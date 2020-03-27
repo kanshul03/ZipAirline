@@ -1,3 +1,7 @@
 Django>=3.0.4
 djangorestframework>=3.11.0
+<<<<<<< HEAD
 coverage>=5.0.4
+=======
+coverage>=5.0.4
+>>>>>>> c26af70a800531c7217226c2c5ea50ce069c0d54
