@@ -9,6 +9,12 @@ class UpdateService:
         self.request = request
         self.pk = pk
 
+    def get_pk(self):
+        return self.pk
+
+    def get_request(self):
+        return self.request
+
     def update_service(self):
         get_service_obj = GetService()
         get_service_obj.set_pk(self.pk)

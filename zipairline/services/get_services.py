@@ -8,6 +8,9 @@ class GetService:
     def set_pk(self, pk):
         self.pk = pk
 
+    def get_pk(self):
+        return self.pk
+
     def get_service(self):
         airplanes = Airplane.objects.all().order_by('airplane_id')
         serializer = AirplaneSerializer(airplanes, many=True)

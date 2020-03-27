@@ -17,7 +17,6 @@ class AirplaneList(APIView):
         data = self.get_service_obj.get_service()
         return Response(data)
 
-
     def post(self, request, format=None):
         self.post_service_obj.set_request(request)
         data, status = self.post_service_obj.post_service()
