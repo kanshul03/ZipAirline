@@ -1,4 +1,4 @@
-# ZipHr
+# ZipAirline
 
 ### Problem Statement - 
 The assignment is to create and submit a working digital version of the aircraft passenger capacity issue, ZipAirlines, along with instructions to run the code. Solution should be in Python. More detailed requirements are listed below.
